@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link
@@ -21,9 +21,9 @@
             <ul class="head1">
 
                 <li class="home"> <a href=""><i class="fas fa-bed"></i> Logo</a></li>
-                <li class="rooms"><a href="#rooms">Rooms</a></li>
-                <li class="about"><a href="#about">About</a></li>
-                <li class="contact"><a href="#contact">Contact</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#about">About</a></li>
+                <li ><a href="#contact">Contact</a></li>
             </ul>
 
             <button class="head2">Book Now</button>
@@ -64,6 +64,7 @@
     <div class="rooms" id="rooms">
         <h2>Rooms</h2>
         <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
+    <div class="min-detail">
         <div class="rodiv1">
             <label for="">Check in</label><br>
             <input class="roinput1" type="date">
@@ -92,50 +93,53 @@
             <button class="btnroom">Search</button>
         </div>
     </div>
-    <div class="rosingle">
-        <img src="images/room_single.jpg" alt="" width="280px" height="180px">
-        <div class="sinro">
-            <h3>Single Room</h3>
-            <p>From $99<br><br> Single bed<br><br>15m<sup>2</sup> </p>
-            <div class="sigicon">
-                <i class="fas fa-bath"></i>
-                <i class="fas fa-phone-volume"></i>
-                <i class="fas fa-wifi"></i>
-            </div>
-            <br>
-            <button>Choose Room</button>
-        </div>
     </div>
-    <div class="roomdob">
-        <img src="images/room_double.jpg" alt="" width="280px" height="180px">
-        <div class="dobro">
-            <h3>Double Room</h3>
-            <p>From $149<br><br> Queen-size bed<br><br>25m<sup>2</sup> </p>
-            <div class="dobicon">
-                <i class="fas fa-bath"></i>
-                <i class="fas fa-phone-volume"></i>
-                <i class="fas fa-wifi"></i>
-                <i class="fas fa-tv"></i>
+    <div class="maincard">
+        <div class="rosingle">
+            <img src="images/room_single.jpg" alt="" width="280px" height="180px">
+            <div class="sinro">
+                <h3>Single Room</h3>
+                <p>From $99<br><br> Single bed<br><br>15m<sup>2</sup> </p>
+                <div class="sigicon">
+                    <i class="fas fa-bath"></i>
+                    <i class="fas fa-phone-volume"></i>
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <br>
+                <button>Choose Room</button>
             </div>
-            <br>
-            <button>Choose Room</button>
         </div>
-    </div>
-    <div class="rodel">
-        <img src="images/room_deluxe.jpg" alt="" width="280px" height="180px">
-        <div class="delro">
-            <h3>Deluxe Room</h3>
-            <p>From $199<br><br> King-size bed<br><br>40m<sup>2</sup> </p>
-            <div class="delicon">
-                <i class="fas fa-bath"></i>
-                <i class="fas fa-phone-volume"></i>
-                <i class="fas fa-wifi"></i>
-                <i class="fas fa-tv"></i>
-                <i class="fas fa-utensils"></i>
-                <i class="fas fa-glass-martini-alt"></i>
+        <div class="rosingle">
+            <img src="images/room_double.jpg" alt="" width="280px" height="180px">
+            <div class="sinro">
+                <h3>Double Room</h3>
+                <p>From $149<br><br> Queen-size bed<br><br>25m<sup>2</sup> </p>
+                <div class="dobicon">
+                    <i class="fas fa-bath"></i>
+                    <i class="fas fa-phone-volume"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-tv"></i>
+                </div>
+                <br>
+                <button>Choose Room</button>
             </div>
-            <br>
-            <button>Choose Room</button>
+        </div>
+        <div class="rosingle">
+            <img src="images/room_deluxe.jpg" alt="" width="280px" height="180px">
+            <div class="sinro">
+                <h3>Deluxe Room</h3>
+                <p>From $199<br><br> King-size bed<br><br>40m<sup>2</sup> </p>
+                <div class="delicon">
+                    <i class="fas fa-bath"></i>
+                    <i class="fas fa-phone-volume"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-tv"></i>
+                    <i class="fas fa-utensils"></i>
+                    <i class="fas fa-glass-martini-alt"></i>
+                </div>
+                <br>
+                <button>Choose Room</button>
+            </div>
         </div>
     </div>
     <div class="divab" id="about">
@@ -152,7 +156,7 @@
                 adipiscing
                 elit, sed do eiusmod tempor incididunt ut labore et dolore magna alique. Ut enim ad minim veniam.
             </p>
-            
+
             <span>We accpet
                 <i class="fas fa-credit-card"></i>
                 <i class="fab fa-cc-mastercard"></i>
@@ -169,19 +173,24 @@
         </tr>
     </table>
     <div class="notice">
-        <p><i class="fas fa-exclamation-triangle"></i> On demand, we can offer playstation, babycall children care, dog equipment, etc.</p>
+        <p><i class="fas fa-exclamation-triangle"></i> On demand, we can offer playstation, babycall children care, dog
+            equipment, etc.</p>
     </div>
     <div class="hotdiv">
+      
         <h2>Our Hotel</h2>
         <p>You can find our hotel anywhere in world:</p>
+       <div class="min-hotdiv">
+        <div>
         <img src="images/cinqueterre.jpg" alt="" width="450px" height="310px">
-        <table class="city">
+        </div>
+         <table class="city">
             <tr>
                 <td class="york">
-                    <img  src="images/newyork2.jpg" alt="" width="250px" height="150px">
+                    <img src="images/newyork2.jpg" alt="" width="250px" height="150px">
                 </td>
                 <td class="sanf">
-                    <img  src="images/sanfran.jpg" alt="" width="250px" height="150px">
+                    <img src="images/sanfran.jpg" alt="" width="250px" height="150px">
                 </td>
             </tr>
             <tr>
@@ -192,8 +201,8 @@
                     <img src="images/paris.jpg" alt="" width="250px" height="150px">
                 </td>
             </tr>
-        </table> 
-        
+        </table>
+    </div>
     </div>
     <div class="help1">
         <h2>Get the best offers first!</h2>
@@ -215,8 +224,8 @@
         <br>
         <i class="fas fa-envelope"></i>
         <span id="emm">Email: mail@mail.com</span>
-    </div>   
-     <div>   
+    </div>
+    <div>
         <input class="name1" type="text" placeholder="Name">
         <input class="mail3" type="email" placeholder="Email">
         <input class="feed" type="text" placeholder="Massege">
